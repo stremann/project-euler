@@ -1,5 +1,4 @@
 function sub(n) {
-
     let sum1 = 0;
     let sum2 = 0;
 
