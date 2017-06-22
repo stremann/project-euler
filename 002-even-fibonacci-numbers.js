@@ -12,6 +12,7 @@ function sum(n) {
         x = y;
         y = z;
     }
+
     return sum;
 }
 
