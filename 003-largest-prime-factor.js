@@ -1,10 +1,10 @@
 function findLargestPrimeFactor(n) {
     let i = 2;
-    let p = n;
+    let num = n;
 
-    while (p > i) {
-        if (p % i === 0) {
-            p = p / i;
+    while (num > i) {
+        if (num % i === 0) {
+            num = num / i;
         }
 
         i++;
