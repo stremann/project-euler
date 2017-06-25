@@ -7,7 +7,9 @@ function findSmallestEvenlyDivisibleNumber(from, to) {
     while(!isFound) {
         num += max;
 
+        // find while num is divisible by min and min is less than max
         while(num % min === 0 && min <= max) {
+            // if min is equal to max we've found the answer then
             if (min === max) {
                 isFound = true;
             }
@@ -15,6 +17,7 @@ function findSmallestEvenlyDivisibleNumber(from, to) {
             min++;
         }
 
+        // reset min if num isn't divisible by min
         min = from;
     }
 
