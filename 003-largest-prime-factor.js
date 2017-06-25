@@ -1,6 +1,6 @@
-function findLargestPrimeFactor(n) {
+function findLargestPrimeFactor(to) {
     let i = 2;
-    let num = n;
+    let num = to;
 
     while (num > i) {
         if (num % i === 0) {
