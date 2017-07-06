@@ -1,6 +1,6 @@
 function nameScore(name) {
     let sum = 0;
-    for (let i = name.length; i--;) {
+    for (let i = 0; i < name.length; i++) {
         sum += name.charCodeAt(i) - 64;
     }
     return sum;
